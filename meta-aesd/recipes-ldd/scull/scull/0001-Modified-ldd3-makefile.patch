@@ -1,0 +1,23 @@
+From c3c9b3d38968983cb5df30e9c510b20704d570e1 Mon Sep 17 00:00:00 2001
+From: Rajkumar Saravanakumar <rsrajkumar0097@gmail.com>
+Date: Sat, 29 Mar 2025 23:15:36 +0530
+Subject: [PATCH] Modified ldd3 makefile
+
+---
+ Makefile | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7b08c49..c4f2e2e 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,5 @@
+ 
+-SUBDIRS =  misc-progs misc-modules \
+-           skull scull scullc scullp lddbus sculld scullv shortprint simple tty \
+-	   pci usb\
+-	   sbull snull short
++SUBDIRS =  misc-modules scull
+ 
+ all: subdirs
+ 
