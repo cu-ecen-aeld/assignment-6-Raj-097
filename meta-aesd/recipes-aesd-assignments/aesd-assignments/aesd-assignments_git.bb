@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 #__Github repo url to be cloned__
 SRC_URI = "git://github.com/cu-ecen-aeld/assignments-3-and-later-Raj-097.git;protocol=https;branch=main"
 
-SRCREV = "0367cfc2c31701f9ffdf046ad80d748f71fdab20"
+SRCREV = "4568381d6c5c5b30524ce862b365e5d6cb296dd9"
 
 PV = "1.0+git${SRCPV}"
 # SRCPV expands to a short hash from SRCREV (aesd-assignments-1.0+git1f993ece38)
@@ -61,7 +61,7 @@ do_configure () {
 #__Yocto's recipe build step__
 do_compile () {
     oe_runmake -C ${S}/server
-    oe_runmake -C ${S}/aesd-char-driver  KERNEL_SRC=${STAGING_KERNEL_DIR}
+    oe_runmake -C ${S}/aesd-char-driver KERNEL_SRC=${STAGING_KERNEL_DIR}
 }
 
 #__Yocto's install to target step__
