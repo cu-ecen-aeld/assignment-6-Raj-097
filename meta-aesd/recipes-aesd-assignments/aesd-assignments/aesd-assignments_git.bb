@@ -3,7 +3,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
 #__Github repo url to be cloned__
-SRC_URI = "git@github.com:cu-ecen-aeld/Programs_for_Server_and_Device_Driver.git;protocol=ssh;branch=main"
+SRC_URI = ""git://github.com/cu-ecen-aeld/Programs_for_Server_and_Device_Driver.git;protocol=ssh;branch=main"
 
 
 SRCREV = "52a74828854d60c57ac486095463f36a7b5a796f"
