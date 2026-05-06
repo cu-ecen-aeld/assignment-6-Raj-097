@@ -3,7 +3,7 @@ inherit core-image
 # pulls default logic to create a bootable root filesystem
 # package installation, filesystem generation, compression
 
-CORE_IMAGE_EXTRA_INSTALL += "aesd-assignments openssh scull misc-modules"
+CORE_IMAGE_EXTRA_INSTALL += "aesd-assignments openssh"
 CORE_IMAGE_EXTRA_INSTALL += "openssh"
 
 inherit extrausers
