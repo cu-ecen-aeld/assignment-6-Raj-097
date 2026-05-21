@@ -11,7 +11,7 @@
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-SRC_URI = "git@github.com:cu-ecen-aeld/Building_Example_Driver_Modules.git;protocol=ssh;branch=main \
+SRC_URI = "git://github.com/cu-ecen-aeld/Building_Example_Driver_Modules.git;protocol=ssh;branch=main \
            file://0001-Modified-ldd3-makefile.patch \
            "
 
